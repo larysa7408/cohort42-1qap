@@ -63,5 +63,6 @@ public class LocatorTests {
         WebElement parentElement = driver.findElement(By.tagName("form"));
         WebElement loginButton = parentElement.findElement(By.name("login"));
         Assertions.assertTrue(loginButton.isDisplayed(), "Элемент loginButton отсутствует");
+
     }
 }
